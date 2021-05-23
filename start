@@ -2,6 +2,6 @@
 
 export DISPLAY=:0.0
 
-
+xvfb-run
 
 exec "$@"
