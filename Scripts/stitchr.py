@@ -193,6 +193,7 @@ def stitch(specific_args, locus, tcr_info, functionality, codon_dict, j_warning_
 
     # Then finally stitch all that info together and output!
     stitched_nt = n_term_nt_trimmed + non_templated_nt + c_term_nt_trimmed
+    print(stitched_nt)
     out_bits = [specific_args['name'], used_alleles['v'], used_alleles['j'],
                 used_alleles['c'], specific_args['cdr3'], used_alleles['l'] + '(L)']
 
