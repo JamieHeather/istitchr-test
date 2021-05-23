@@ -5,6 +5,7 @@
 
 export DISPLAY=unix$DISPLAY
 
-
+export DISPLAY=0.0
+xhost +
 
 exec "$@"
