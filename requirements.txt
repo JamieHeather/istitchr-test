@@ -1,1 +1,2 @@
 PySimpleGUI==4.41.2
+ipywidgets==7.6.3
